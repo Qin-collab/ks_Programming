@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 KS语言编译器
-用法: python ks_compiler.py <source_file.ks>
+用法: python ks.py <source_file.ks>
 """
 
 import sys
@@ -187,10 +187,10 @@ def main():
         elif option == "--ast":
             compiler.show_ast(file_path)
         else:
-            print("用法: python ks_compiler.py [--tokens|--ast] <file.ks>", file=sys.stderr)
+            print("用法: python ks.py [--tokens|--ast] <file.ks>", file=sys.stderr)
             sys.exit(1)
     else:
-        print("用法: python ks_compiler.py [--tokens|--ast] <file.ks>", file=sys.stderr)
+        print("用法: python ks.py [--tokens|--ast] <file.ks>", file=sys.stderr)
         sys.exit(1)
 
 if __name__ == "__main__":

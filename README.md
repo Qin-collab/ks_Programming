@@ -54,7 +54,7 @@ while (flag) {
 ## 使用方法
 
 1. 编写.ks文件
-2. 使用编译器编译: `python ks_compiler.py your_file.ks`
+2. 使用编译器编译: `python ks.py your_file.ks`
 3. 运行生成的代码
 
 ## 示例程序
